@@ -6,9 +6,9 @@ use App\Models\Impresora;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class ImpresionController extends Controller
+class ImpresoraController extends Controller
 {
-    //
+    //CREANDO IMPRESORA
 
     public function crearImpresora(Request $request)
     {
@@ -92,6 +92,9 @@ class ImpresionController extends Controller
         return response()->json($producto);
 
     }
+
+
+    
 
     
 
