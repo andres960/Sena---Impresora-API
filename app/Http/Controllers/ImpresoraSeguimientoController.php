@@ -10,6 +10,7 @@ class ImpresoraSeguimientoController extends Controller
 {
     //
 
+    //CREANDO SEGUIMIENTOS
     public function crearSeguimiento(Request $request)
     {
         $data = $request->json()->all();
