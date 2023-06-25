@@ -31,6 +31,7 @@ class ImpresoraSeguimientoController extends Controller
     }
 
 
+    //LISTANDO SEGUIMIENTOS POR ID
     public function listarSeguimientos($id_impresora, Request $request)
     {
 
